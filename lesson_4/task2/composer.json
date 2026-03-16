@@ -1,0 +1,17 @@
+{
+    "name": "user/task2",
+    "require": {
+        "predis/predis": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "User\\Task2\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Konstantin",
+            "email": "grigo.ko2004@gmail.com"
+        }
+    ]
+}

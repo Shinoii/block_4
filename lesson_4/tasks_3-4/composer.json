@@ -1,0 +1,17 @@
+{
+    "name": "user/tasks_3-4",
+    "require": {
+        "php-amqplib/php-amqplib": "^3.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "User\\Tasks34\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Konstantin",
+            "email": "grigo.ko2004@gmail.com"
+        }
+    ]
+}

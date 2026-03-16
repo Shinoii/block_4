@@ -1,0 +1,17 @@
+{
+    "name": "user/task_1",
+    "require": {
+        "swoole/ide-helper": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "User\\Task1\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Konstantin",
+            "email": "grigo.ko2004@gmail.com"
+        }
+    ]
+}
