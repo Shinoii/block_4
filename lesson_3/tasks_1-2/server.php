@@ -13,7 +13,7 @@ $server->on("request", function (Request $request, Response $response) {
 });
 
 function timer(){
-    Swoole\Timer::after(2000, function () {
+    Swoole\Timer::after(5000, function () {
         echo "Каждые 5 секунд выводится сообщение в консоль\n";
     });
 }
