@@ -2,7 +2,7 @@
     "autoload": {
         "psr-4": {
             "Models\\": "models/",
-            "Controllers\\": "models/",
+            "Controllers\\": "controllers/",
             "Views\\": "views/",
             "Routes\\": "routes/",
             "Services\\": "services/"
