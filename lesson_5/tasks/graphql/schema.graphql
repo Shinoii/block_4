@@ -1,6 +1,7 @@
 type Query {
     user(id: ID! @eq): User @find
     users: [User!]! @all
+    getUser(id: ID!): User @find
 }
 
 type User {
@@ -10,6 +11,5 @@ type User {
 }
 
 type Mutation {
-  getUser(id: ID!): User @find
   createUser(name: String!, email: String!, password: String!): User @create
 }
