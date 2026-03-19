@@ -1,8 +1,8 @@
 <?php
 
-require_once __DIR__ . '/../controllers/UserController.php';
+namespace Routes;
 
-use models\User as UserModel;
+use Models\User as UserModel;
 
 $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $method = $_SERVER['REQUEST_METHOD'];

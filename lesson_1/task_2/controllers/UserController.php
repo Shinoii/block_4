@@ -1,9 +1,8 @@
 <?php
 
-namespace controllers;
-require_once __DIR__ . '/../models/User.php';
+namespace Controllers;
 
-use models\User as UserModel;
+use Models\User as UserModel;
 
 class UserController
 {
