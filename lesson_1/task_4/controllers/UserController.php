@@ -1,15 +1,15 @@
 <?php
 
-namespace controllers;
-require_once __DIR__ . '/../services/UserService.php';
+namespace Controllers;
 
-use services\UserService as UserService;
+use Services\UserService;
 
 class UserController
 {
     public function index()
     {
-        $users = UserService::getUsers();
+        $userService = new UserService();
+        $users =  $userService->getUsers();
         require __DIR__ . "/../views/home.php";
     }
 }

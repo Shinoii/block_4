@@ -1,14 +1,12 @@
 <?php
 
-namespace services;
+namespace Services;
 
-require_once __DIR__ . '/../models/User.php';
-use models\User;
-
+use Models\User;
 
 class UserService
 {
-    public static function getUsers()
+    public function getUsers()
     {
         $userModel = new User();
         return $userModel->getAll();

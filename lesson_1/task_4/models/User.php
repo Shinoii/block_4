@@ -1,13 +1,11 @@
 <?php
 
-namespace models;
+namespace Models;
 
 use PDO;
-
 class User
 {
     private PDO $pdo;
-
     public function __construct()
     {
         $this->pdo = new PDO(
